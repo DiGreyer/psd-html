@@ -68,9 +68,27 @@ main {
     color: #4c535e;
 }
 
-#services div {
-    /* width: 25%; */
+#services img {
+    /* min-width: 25%; */
 }
+
+#portfolio {
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: #2e3e4f;
+    width: 100%;
+}
+
+.offer {
+    background-color: #f4f4f4;
+}
+
+#more {
+    background-color: blue;
+    border-radius: 5px;
+    padding: 4px;
+}
+
 h3 {
     margin: 20px;
 }
