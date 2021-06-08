@@ -177,9 +177,96 @@ header {
 }
 /* portfolio css end  */
 
+/* offer css start  */
+
 .offer {
+    font-family: "Ubuntu Condensed", sans-serif;
     background-color: #f4f4f4;
+    color: #515862;
 }
+
+#offer-header {
+    text-align: center;
+    padding: 40px;
+    padding: 0 10%;
+}
+
+#offer-header h2 {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 30px;
+    color: #2190c1;
+    padding-top: 30px;
+}
+
+#offer-header p {
+    padding: 0 10%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.offer-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.offer-item {
+    width: 20%;
+}
+
+.offer-item h3 {
+    color: #2190c1;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+#line {
+    height: 2px;
+    width: 90%;
+    background: #bebebe;
+    margin: 40px auto;
+}
+
+/* offer css end  */
+
+/* testimonials css start  */
+
+#testimonials {
+    text-align: center;
+    background: #f4f4f4;
+}
+#testimonials h2 {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 30px;
+    color: #2190c1;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#testimonials p {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #515862;
+    font-weight: 500;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#testimonials span {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #f98561;
+    /* font-size: 14px; */
+}
+
+#test-images {
+    display: flex;
+    justify-content: center;
+}
+
+/* testimonials css end  */
 
 #more {
     background-color: blue;
