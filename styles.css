@@ -97,7 +97,7 @@ header {
     margin-bottom: 10px;
 }
 .item p {
-    padding: 0 15% 0 15%;
+    padding: 0 10%;
 }
 
 .item a {
@@ -106,7 +106,7 @@ header {
 }
 
 .item img {
-    width: 50%;
+    width: 58%;
     /* padding: 20px; */
 }
 
@@ -120,17 +120,61 @@ header {
 /* portfolio css start */
 
 #portfolio {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+
     background-color: #2e3e4f;
     width: 100%;
 }
 
-.portfolio-block {
-    color: white;
-    text-align: left;
+#porfolio-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10%;
+
+    background: #2e3e4f;
+}
+#porfolio-header h2 {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 25;
+    color: #f98561;
+    margin-left: 0;
 }
 
+#porfolio-header a {
+    font-family: "Ubuntu", sans-serif;
+    line-height: 40px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #2190c1;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.portfolio-block {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    padding: 0 10%;
+
+    color: #bcbcbc;
+    text-align: left;
+}
+.something h3 {
+    color: #f98561;
+    margin: 10px 0;
+}
+
+.something {
+    width: 30%;
+    padding-bottom: 80px;
+}
+
+.something img {
+    width: 100%;
+}
 /* portfolio css end  */
 
 .offer {
