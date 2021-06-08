@@ -5,9 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Template Home Page</title>
         <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+            rel="stylesheet"
+        />
         <script src="script.js" type="text/javascript"></script>
     </head>
     <body>
+        <!-- navigation -->
+
         <nav>
             <img src="images/logo.png" alt="logo" />
             <h3 id="logo" img>Your Logo</h3>
@@ -18,6 +30,11 @@
             <h3>Blog</h3>
             <h3>Search</h3>
         </nav>
+
+        <!-- end navigation  -->
+
+        <!-- header  -->
+
         <header>
             <img id="header" src="images/header.png" alt="header" />
             <div id="header-content">
@@ -32,55 +49,67 @@
             </div>
         </header>
 
+        <!-- end header  -->
+
         <!-- <main> -->
+
+        <!-- services  -->
+
         <div id="services">
-            <div id="services-button">Services</div>
-            <div id="design">
-                <img src="images/design.png" alt="Web Design" />
-                <h3>Web design</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                    <a href="#"> Details...</a>
-                </p>
-            </div>
-            <div id="seo">
-                <img src="images/seo.png" alt="Search engine Optimisation" />
-                <h3>Search Optimization</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                    <a href="#"> Details...</a>
-                </p>
-            </div>
+            <h2>OUR SERVICES</h2>
+            <div class="block">
+                <div class="item">
+                    <img src="images/design.png" alt="Web Design" />
+                    <h3>Web design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris nec ipsum at lacus commodo suscripit.
+                        <a href="#"> Details...</a>
+                    </p>
+                </div>
+                <div class="item">
+                    <img
+                        src="images/seo.png"
+                        alt="Search engine Optimisation"
+                    />
+                    <h3>Search Optimization</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris nec ipsum at lacus commodo suscripit.
+                        <a href="#"> Details...</a>
+                    </p>
+                </div>
 
-            <div id="shop">
-                <img src="images/cart.png" alt="online shop" />
-                <h3>Online Shop</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                    <a href="#"> Details...</a>
-                </p>
-            </div>
+                <div class="item">
+                    <img src="images/cart.png" alt="online shop" />
+                    <h3>Online Shop</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris nec ipsum at lacus commodo suscripit.
+                        <a href="#"> Details...</a>
+                    </p>
+                </div>
 
-            <div id="social">
-                <img src="images/social.png" alt="social media" />
-                <h3>Social Media</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                    <a href="#"> Details...</a>
-                </p>
+                <div class="item">
+                    <img src="images/social.png" alt="social media" />
+                    <h3>Social Media</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris nec ipsum at lacus commodo suscripit.
+                        <a href="#"> Details...</a>
+                    </p>
+                </div>
             </div>
         </div>
 
+        <!-- portfolio -->
+
         <div id="portfolio">
-            <div>
+            <!-- <div>
                 <h3>Our Porfolio Awesome</h3>
-                <button id="more">More Works</button>
-            </div>
-            <div>
+                <a href="#">More Works</a>
+            </div> -->
+            <div class="portfolio-block">
                 <img src="images/portfolio.png" alt="" />
                 <h4>Lorem ipsum dolor sit amet</h4>
                 <p>
@@ -88,12 +117,12 @@
                     congue ipsum feugiat laoreet facilisis.
                 </p>
             </div>
-            <div>
+            <div class="portfolio-block">
                 <img src="images/portfolio.png" alt="" />
                 <h4>Lorem ipsum</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div>
+            <div class="portfolio-block">
                 <img src="images/portfolio-details.png" alt="" />
                 <h4>Ipsum dolor</h4>
                 <p>
@@ -102,6 +131,10 @@
                 </p>
             </div>
         </div>
+
+        <!-- end portfolio -->
+
+        <!-- offers  -->
 
         <div class="offer">
             <h2>WHAT WE OFFER</h2>
@@ -149,7 +182,17 @@
                 </p>
             </div>
         </div>
+
+        <!-- end offers  -->
+
+        <!-- testimonials  -->
+
         <div id="testimonials"></div>
+
+        <!-- end testimonials  -->
+
+        <!-- footer  -->
+
         <footer id="footer">
             <div>
                 <h3>TWITTER FEEDS</h3>
@@ -164,6 +207,8 @@
                 <h3>CONTACT</h3>
             </div>
         </footer>
+
+        <!-- end footer  -->
         <!-- </main> -->
     </body>
 </html>
