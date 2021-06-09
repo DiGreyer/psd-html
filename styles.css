@@ -300,20 +300,24 @@ h3 {
 footer h2 {
     font-family: "Ubuntu Condensed", sans-serif;
     color: #ee805f;
-    font-size: 20px;
+    font-size: 25px;
     text-transform: uppercase;
     padding-bottom: 20px;
 }
 
+/* line css  */
+
 footer br {
     content: "";
     display: block;
-    width: 100%;
+    width: 98%;
     height: 1px;
     background-color: #556270;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/* line css end  */
 
 footer a {
     text-decoration: none;
@@ -342,4 +346,19 @@ footer input {
 }
 .block-inner img {
     margin-right: 10px;
+}
+
+.colored {
+    color: #2388b6;
+    padding-bottom: 10px;
+}
+
+#submit {
+    background-color: #2388b6;
+    border-color: #2388b6;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin: 18px 0;
+    float: right;
 }
